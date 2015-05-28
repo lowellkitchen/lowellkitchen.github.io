@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lowell Kitchen: Web Engineer for Hire</title>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+            html { height: 100%; }
+            body{ background-color: #eee; font-family: "Roboto Slab", helvetica; height: 100%;}
+            #container { background-color: #fff; width: 65%; height: 40%; text-align: center; margin: 5% auto 0 auto; border-radius: 5px 0 5px 5px; box-shadow: -2px 2px 1px rgba(0,0,0,0.3), -2px 2px 1px rgba(0,0,0,0.2);
+}
+            #twitter{ margin-top: 50px; }
+            h1 { margin-bottom: 2px; color: #000; font-size: 55px;}
+            h2 { margin-top: 2px; color: #bbb; font-size: 24px;}
+
+            .note {
+              position: relative;
+              width: 30%;
+              padding: 1em 1.5em;
+              margin: 2em auto;
+              color: #fff;
+              background: #97C02F;
+              overflow: hidden;
+            }
+
+            .note:before {
+              content: "";
+              position: absolute;
+              top: 0;
+              right: 0;
+              border-width: 0 32px 32px 0;
+              border-style: solid;
+              border-color: #eee #eee #bbb #bbb;
+              background: #bbb;
+              -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+              -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+              box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+              /* Firefox 3.0 damage limitation */
+              display: block; width: 0;
+            }
+
+            .note.rounded {
+              -moz-border-radius: 5px 0 5px 5px;
+              border-radius: 5px 0 5px 5px;
+            }
+
+            .note.rounded:before {
+              border-width: 16px;
+              border-color: #eee #eee transparent transparent;
+              -moz-border-radius: 0 0 0 5px;
+              border-radius: 0 0 0 5px;
+            }
+         </style>
+    </head>
+
+    <body>
+
+        <div id="container" class="note rounded">
+            <h1>Lowell Kitchen</h1>
+            <h2>web engineer for hire</h2>
+            <div id="twitter">
+                <a href="https://twitter.com/lowellkitchen" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @lowellkitchen</a>
+            </div>
+
+            <div id="linkedin">
+                <a href="https://www.linkedin.com/pub/lowell-kitchen/6/816/874" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Lowell Kitchen's LinkedIn profile" style="vertical-align:middle;" border="0">&nbsp;View my profile</span></a>
+            </div>
+        </div>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </body>
+</html>
